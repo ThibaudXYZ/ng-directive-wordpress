@@ -2,8 +2,8 @@
 	/*
 	Plugin Name: Angular Directive
 	Plugin URI: NONE
-	Description: To display an Angular directive
-	Author: Gandalf
+	Description: Displays an Angular attribute directive
+	Author: Fourwinged
 	Version: 0.1
 	Author URI: 
 	*/
@@ -61,11 +61,11 @@
 				$directive = $instance[ 'directive' ];
 			}
 			else {
-				$directive = __( 'Condition (ng-if)', 'text_domain' );
+				$directive = __( 'ng-example', 'text_domain' );
 			}
 			?>
 			<p>
-			<label for="<?php echo $this->get_field_id( 'directive' ); ?>"><?php _e( 'Ng-if:' ); ?></label>
+			<label for="<?php echo $this->get_field_id( 'directive' ); ?>"><?php _e( 'Directive:' ); ?></label>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'directive' ); ?>" name="<?php echo $this->get_field_name( 'directive' ); ?>" type="text" value="<?php echo esc_attr( $directive ); ?>">
 			</p>
 			<?php
