@@ -1,4 +1,4 @@
-# ng-widget-wordpress
+# ng-directive-wordpress
 
 A simplistic widget to display an Angular attribute directive in Wordpress.
 
